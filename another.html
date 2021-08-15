@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabbir khan ki..</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl font-bold text-center mt-4">Hi , Welcome Sabbir <span class="text-red-800">Khan ki !</span>
+        </h1>
+    </header>
+    <main>
+        <section class="mt-8">
+            <div class="grid grid-cols-3 gap-3 w-1/2 mx-auto text-white">
+                <div class="bg-green-500 p-8 rounded">
+                    <h1 class="font-semibold text-3xl">Deposit</h1>
+                    <h1 class="font-bold text-4xl">$<span id="deposit">00</span></h1>
+                </div>
+                <div class="bg-red-500 p-8 rounded">
+                    <h1 class="font-semibold text-3xl">Withdraw</h1>
+                    <h1 class="font-bold text-4xl">$<span id="withdraw">00</span></h1>
+                </div>
+                <div class="bg-yellow-500 p-8 rounded">
+                    <h1 class="font-semibold text-3xl">Balance</h1>
+                    <h1 class="font-bold text-4xl">$<span id="balance">2500</span> </h1>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-3 w-1/2 mx-auto text-white mt-8">
+                <div class="bg-green-400 p-3 rounded">
+                    <input id="deposit-input" class="p-2 block my-2 w-6/12 rounded text-black" type="text"
+                        placeholder="$enter amount">
+                    <button id="deposit-btn"
+                        class="bg-red-500 hover:bg-red-700 py-2 px-4 rounded text-white font-semibold">Deposit</button>
+
+                </div>
+                <div class="bg-red-400 p-3 rounded">
+                    <input id="withdraw-input" class="p-2 block my-2 w-6/12 rounded text-black" type="text"
+                        placeholder="$enter amount">
+                    <button id="withdraw-btn"
+                        class="bg-red-500 hover:bg-red-700 py-2 px-4 rounded text-white font-semibold">Withdraw</button>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <script src="another-script.js"></script>
+</body>
+
+</html>
